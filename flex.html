@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>my website</title>
+  <style>
+    *{
+      box-sizing: border-box;
+    }
+    header{
+      min-height: 80px;
+      border: 1px solid black;
+      background-color: aquamarine;
+      justify-content: space-between;
+      color: rgb(61, 187, 7);
+    }
+    aside{
+      width: 25%;
+      border: 1px solid black;
+      display: grid;
+      background-color: rgb(159, 173, 172);
+    }
+    main{
+      width: 75%;
+      display: grid;
+      border: 1px solid black;
+    grid-template-columns: repeat(6 1fr);
+    gap: 20px;
+    }
+    footer{
+      height: 80px;
+      border: 1px solid black;
+      background-color: rgb(212, 154, 101);
+      color: aliceblue;
+    }
+    child{
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>my website</h1>
+  </header>
+  <div class="container"></div>
+  <aside> 
+    <h1>menu </h1>
+    <a href="#"> home</a><br>
+    <a href="#">produt</a><br>
+    <a href="#">about</a><br>
+    <a href="#">contact</a><br>
+    </aside>
+    <main>
+      <div class="child">
+      <h1> card 1</h1>
+      <p>this is card one</p>
+      </div>
+      <div class="child">
+      <h1> card 2</h1>
+      <p>this is card two</p>
+      </div>
+      <div class="child">
+      <h1> card 3</h1>
+      <p>this is card three</p>
+      </div>
+      <div class="child">
+      <h1> card 4</h1>
+      <p>this is card four</p>
+      </div>
+      <div class="child">
+      <h1> card 5</h1>
+      <p>this is card five</p>
+      </div>
+      <div class="child">
+      <h1> card 6</h1>
+      <p>this is card six</p>
+      </div>
+    </main>
+    <footer>
+      copyright 2026
+    </footer>
+</body>
+</html>
